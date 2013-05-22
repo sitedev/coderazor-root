@@ -1,0 +1,80 @@
+/*
+Theme Name: CodeRazor Root
+Theme URI: http://coderazor.com
+Description: CodeRazor Root WordPress Theme. This theme was designed to be used as a foundation for custom child themes, or as a starting point for your own project.
+Author: CodeRazor
+Author URI: http://coderazor.com
+Version: 0.1
+Tags: Foundation Theme, Parent Theme, Nav Walker, Twitter Bootstrap
+*/
+
+p,div,span,article,aside,.box-fix{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+/* ===================================================================== WORDPRESS FIXES */
+body{text-shadow:none;font-size:100%;}
+.home .entry-title{display:none;}
+
+
+/* ===================================================================== THE BASICS */
+html {}
+body {}
+body, input, textarea {}
+h1, h2, h3, h4, h5, h6 {}
+hr {}
+pre {}
+code {}
+p {}
+a {}
+a:hover {}
+a:visited {}
+
+/* ===================================================================== PAGE LAYOUT */
+div#container {}
+div#content {}
+.menu ul {}
+.menu ul ul {}
+.menu li {}
+.menu-item {}
+.menu-item a {}
+.menu-item a:hover {}
+.alpha {}
+.omega {}
+
+/* ===================================================================== CONTENT : POSTS AND PAGES */
+h1.entry-title {}
+h2.entry-title {}
+h2.entry-title a {}
+h1.page-title {}
+.alignright {}
+.alignleft {}
+.entry-content {}
+.entry-content a {}
+.entry-content a:hover {}
+.entry-content h1, h2, h3, h4, h5 {}
+.entry-content ol li {}
+.entry-utility {}
+.entry-meta {}
+.skip-link {}
+.navigation {}
+
+/* ===================================================================== CONTENT & COMMENTS */
+div#comments {}
+.comments h3 {}
+.comments ol {}
+.comments ol li {}
+.comments img {}
+.comments .comment {}
+.children ul li {}
+.comment-reply-link {}
+.comment-meta {}
+div#respond {}
+div#respond h3 {}
+
+/* ===================================================================== CONTENT : SIDEBAR */
+div#primary {}
+div#secondary {}
+.widget-area {}
+.xoxo {}
+div#footer {}
+
+/* ===================================================================== CUSTOM CSS */
