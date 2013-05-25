@@ -17,11 +17,11 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 	
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
-	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad3.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
+	<link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/apple-touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_url'); ?>/apple-touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url'); ?>/apple-touch-icon-iphone4.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('template_url'); ?>/apple-touch-icon-ipad3.png" />
 
     <?php wp_head(); ?>
  
